@@ -42,7 +42,7 @@ const Form = ({ setValue, getValues }: FormProps) => {
           textContentType="postalCode"
           keyboardType="numeric"
           name="kode_pos"
-          onChangeText={(newText) => setValue("kode_pos", newText)}
+          onChangeText={(newText) => setValue("kode_pos", Number(newText))}
           label="Kode Pos: *"
           maxLength={5}
           placeholder="5 digit angka"
@@ -88,7 +88,7 @@ const Form = ({ setValue, getValues }: FormProps) => {
         <Input
           keyboardType="numeric"
           name="jumlah_siswa"
-          onChangeText={(newText) => setValue("jumlah_siswa", newText)}
+          onChangeText={(newText) => setValue("jumlah_siswa", Number(newText))}
           label="Jumlah Siswa: *"
           placeholder="Masukan jumlah siswa"
         />
