@@ -20,8 +20,8 @@ const SubmitButton = ({
     else if (!data.email) alert("Harap masukan email sekolah");
     else if (!data.jumlah_siswa) alert("Harap masukan jumlah siswa");
     else {
-      const res = storeToDatabase(data);
-      alert(JSON.stringify(res));
+      // const res = storeToDatabase(data);
+      alert(JSON.stringify(data));
     }
   };
 
