@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    {
+      "display": "flex",
+      "gap": 8,
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 14,
+        "fontWeight": "600",
+        "lineHeight": 14,
+      }
+    }
+  />
+  <TextInput
+    autoCapitalize="none"
+    name="test"
+    style={
+      {
+        "backgroundColor": "#fff",
+        "borderRadius": 9999,
+        "fontSize": 14,
+        "lineHeight": 14,
+        "paddingBottom": 10,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 10,
+        "width": "100%",
+      }
+    }
+  />
+  <Text />
+</View>
+`;
