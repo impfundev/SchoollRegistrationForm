@@ -5,7 +5,7 @@
   "description": "Backend Form Registrasi Sekolah",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "prisma generate && node src/index.js",
     "dev": "nodemon src/index.js",
     "lint": "eslint --fix src",
     "test": "jest"
