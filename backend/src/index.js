@@ -7,3 +7,5 @@ app.listen(port, () => {
   console.log(`Main API is on: http://localhost:5000/api/v1`);
   /* eslint-enable no-console */
 });
+
+module.exports = app;
